@@ -38,8 +38,9 @@ LCR(m51, d1)
 ### NCR
 # Table 1
 # Generate submodels of m4
-sub.m4 <- get_submodels(m4)
-sub.m4
+sub.m4 <- get_submodels(m4)[c(1,3,4,2,5,6,7)]
+# sort sub.m4 by complexity
+
 # Generate submodels of m5 
 sub.m5 <- get_submodels(m5)
 sub.m5
