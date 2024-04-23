@@ -14,9 +14,8 @@ library(useful)
 library(QCApro)
 
 
-setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
-source("funcs_quality.R")
+source("https://raw.githubusercontent.com/m-baum/quantifyQuality/main/funcs_quality.R")
 
 
 # \Delta_1, models (4) and (5)
